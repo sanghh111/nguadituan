@@ -73,4 +73,4 @@ class Windown(Frame):
         self.ngua=self.can.create_image(x,y,anchor=NW, image=self.png)
         self.can.update()
         pass    
-app = Windown(8,Tk())
+app = Windown(300,Tk())
